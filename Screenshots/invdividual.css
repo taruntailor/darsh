@@ -1,0 +1,92 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+   background-color: aqua;
+}
+
+.bg {
+   background-color: rgb(0, 89, 255);
+}
+
+.bg h2 {
+   text-align: center;
+   text-transform: uppercase;
+   color: red;
+}
+
+.user {
+   padding: 15px 5em;
+}
+
+.user h3 {
+   color: red;
+}
+
+.up {
+   /* margin: 80px 255px; */
+   /* display: flex; */
+   justify-content: center;
+}
+
+.row {
+   display: flex;
+   padding: 5px;
+}
+
+.clo-1 {
+   flex: 0.5;
+   text-align: right;
+}
+
+.clo-2 {
+
+   flex: 0.5;
+}
+
+input {
+   text-align: center;
+   height: 20px;
+   border-radius: 5px;
+   border: none;
+}
+
+.row-1 {
+   display: flex;
+   padding: 5px 15em;
+   gap: 10px;
+   justify-content: left;
+}
+
+select {
+   width: 150px;
+   border-radius: 5px;
+   border: none;
+}
+
+.up-2 {
+   padding: 10px 15em;
+}
+
+element.style {}
+
+.row-2 {
+   display: flex;
+}
+
+.butto {
+   text-align: center;
+}
+
+button {
+   background-color: blue;
+   color: white;
+   height: 45px;
+   width: 100px;
+   border: none;
+   padding: 0px 30px;
+
+}
